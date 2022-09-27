@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="stylesheet" href="CART.css">
+    <script>
+        function myFunction() {
+            alert("I tried to make it responsive but I couldn't.");
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <section id="rectangle">
+            <div class="first">S.</div>
+            <div class="second">
+                <a href="index.html">
+                    <img src="home.png" alt="home-icon">
+                </a>
+            </div>
+            <div class="third">
+                <a href="MENU.html">
+                    <img src="menu-icon.png" alt="menu-icon" id="menu-icon">
+                </a>
+            </div>
+            <div class="fourth">
+                <img src="cart-icon.png" alt="cart-icon" id="cart-icon">
+            </div>
+            <div class="fifth">
+                <img src="map-icon.jpeg" alt="map-icon" id="map-icon">
+            </div>
+            <div class="sixth">
+                <img src="exit.png" alt="exit-icon">
+            </div>
+        </section>
+        <section>
+            <section>
+                <h1>CART</h1>
+                <div class="underline"></div>
+            </section>
+            <section id="cart-items">
+                <div>
+                    <img src="smashedavo.png" alt="Smashed Avo" id="item" style="top: 20px;">
+                    <p style="left: 100px; top: 10px; font-weight: 500; font-size: 25px;">Smashed Avo</p>
+                    <p style="left: 100px; top: 50px; font-weight: 50; font-size: 20px;">$20.00</p>
+                    <div>
+                        <img src="minus.png" alt="" style="left: 340px; top: 60px;" />
+                        <input type=" text" name="name" value="1" style="top: 50px;" />
+                        <img src="plus.png" alt="" style="left: 400px; top: 55px;" />
+                    </div>
+                    <p style="left: 500px; top:40px; font-weight: 500; font-size:larger; cursor: pointer;"
+                        onclick="myFunction()">Del</p>
+                </div>
+                <div>
+                    <img src="breakkieroll.png" alt="Breakkie Roll" id="item" style="top: 180px">
+                    <p style="left: 100px; top: 170px; font-weight: 500; font-size: 25px;">Breakkie Roll</p>
+                    <p style="left: 100px; top: 210px; font-weight: 50; font-size: 20px;">$10.00</p>
+                    <div>
+                        <img src="minus.png" alt="" style="left: 340px; top: 220px;" />
+                        <input type=" text" name="name" value="1" style="top: 210px;" />
+                        <img src="plus.png" alt="" style="left: 400px; top: 215px;" />
+                    </div>
+                    <p style="left: 500px; top:190px; font-weight: 500; font-size:larger; cursor: pointer;"
+                        onclick="myFunction()">Del</p>
+                </div>
+                <div>
+                    <img src="pancakes.png" alt="Pancakes" id="item" style="top:350px">
+                    <p style="left: 100px; top: 350px; font-weight: 500; font-size: 25px;">Pancakes</p>
+                    <p style="left: 100px; top: 390px; font-weight: 50; font-size: 20px;">$25.00</p>
+                    <div>
+                        <img src="minus.png" alt="" style="left: 340px; top: 400px;" />
+                        <input type=" text" name="name" value="1" style="top: 390px;" />
+                        <img src="plus.png" alt="" style="left: 400px; top: 395px;" />
+                    </div>
+                    <p style="left: 500px; top:370px; font-weight: 500; font-size:larger; cursor: pointer;"
+                        onclick="myFunction()">Del</p>
+                </div>
+                <div>
+                    <img src="burrito.png" alt="Burrito" id="item" style="top:500px">
+                    <p style="left: 100px; top: 500px; font-weight: 500; font-size: 25px;">Burrito
+                    </p>
+                    <p style="left: 100px; top: 540px; font-weight: 50; font-size: 20px;">$20.00</p>
+                    <div>
+                        <img src="minus.png" alt="" style="left: 340px; top: 550px;" />
+                        <input type=" text" name="name" value="1" style="top: 540px;" />
+                        <img src="plus.png" alt="" style="left: 400px; top: 545px;" />
+                    </div>
+                    <p style="left: 500px; top:520px; font-weight: 500; font-size:larger; cursor: pointer;"
+                        onclick="myFunction()">Del</p>
+                </div>
+            </section>
+            <section id="checkout">
+                <div>
+                    <h1>Your Subtotal</h1>
+                    <p id="total">Subtotal
+                    <p style=" top: 130px; left: 400px; font-weight: 100; font-size: 30px;">$75.00</p>
+                    </p>
+                </div>
+                <div>
+                    <a href="#"><button>CONFIRM ORDER</button></a>
+                </div>
+            </section>
+            <section id="promo-code">
+                <h1 id="promo">Promo Code</h1>
+                <input type="text" placeholder="enter promo code" id="fill">
+                <a href="#" id="apply">
+                    <button style="left: 25px; width: 150px;">Apply</button>
+                </a>
+            </section>
+            <footer>
+                Copyright © 2021 Sushi Restaurant
+            </footer>
+    </main>
+</body>
+
+</html>
